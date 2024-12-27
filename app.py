@@ -20,6 +20,8 @@ def preprocess_image(image):
 # Streamlit UI
 st.title("Hand Written Digit Recognition")
 
+st.write("Upload a handwritten digit image to recognize it.")
+
 # Upload image
 uploaded_file = st.file_uploader("Choose an image", type=["jpg", "png", "jpeg"])
 
